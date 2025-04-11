@@ -46,6 +46,7 @@ h2{
     font-size: var(--big);
     line-height: var(--big-line);
     padding: 0px 0px 5px 10px;
+    text-align: end;
 }
 
 h1{
