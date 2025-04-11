@@ -23,8 +23,8 @@
 :root{
     --small: 18px;
     --small-line: 25px;
-    --big: 30px;
-    --big-line: 32px;
+    --big: 28px;
+    --big-line: 30px;
 }
 
 body{
@@ -45,7 +45,7 @@ model-viewer{
 h2{
     font-size: var(--big);
     line-height: var(--big-line);
-    padding: 0px 10px 5px 10px;
+    padding: 0px 0px 5px 10px;
 }
 
 h1{
@@ -105,5 +105,5 @@ p:not(:first-of-type) {
 
 .bilder img{
     width: 100%;
-    filter: grayscale(1) contrast(1.2);
+    filter: saturate(0.9) grayscale(0.3);
 }
